@@ -8,6 +8,7 @@ import android.content.IntentFilter;
 import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
 //import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -60,6 +61,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
+        CoordinatorLayout coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinateLayout);
 
         final View toolbarContainerView = findViewById(R.id.toolbar);
 
