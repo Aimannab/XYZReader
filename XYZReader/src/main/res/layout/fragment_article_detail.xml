@@ -119,11 +119,11 @@
         android:contentDescription="@string/action_share"
         app:pressedTranslationZ="12dp"
         app:elevation="6dp"
-
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_margin="16dp"
         android:clickable="true"
+
         app:layout_anchor="@id/meta_bar"
         app:layout_anchorGravity="bottom|right|end"/>
 
