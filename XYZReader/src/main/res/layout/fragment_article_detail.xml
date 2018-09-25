@@ -112,21 +112,19 @@
 
     <ImageButton
         android:id="@+id/share_fab"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_gravity="bottom|right"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:background="@drawable/add_fab_background"
-        android:contentDescription="@string/action_share"
-        android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
+        android:background="@drawable/add_fab_background"
+        android:elevation="@dimen/fab_elevation"
         android:stateListAnimator="@anim/fab_state_list_anim"
-        app:elevation="6dp"
-        app:borderWidth="0dp"
+        android:contentDescription="@string/action_share"
         app:pressedTranslationZ="12dp"
+        app:elevation="6dp"
 
-        app:layout_anchor="@id/photo_container"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:layout_anchor="@id/meta_bar"
         app:layout_anchorGravity="bottom|right|end"/>
 
 </android.support.design.widget.CoordinatorLayout>
