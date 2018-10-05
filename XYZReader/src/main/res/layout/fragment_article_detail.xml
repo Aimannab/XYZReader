@@ -79,6 +79,7 @@
                         android:paddingTop="@dimen/detail_metabar_vert_padding"
                         android:paddingBottom="@dimen/detail_metabar_vert_padding"
                         android:layout_marginBottom="@dimen/detail_metabar_vert_padding"
+                        android:layout_marginTop="@dimen/detail_metabar_vert_padding"
                         android:orientation="vertical">
 
                         <TextView
