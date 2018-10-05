@@ -125,7 +125,6 @@
             android:stateListAnimator="@anim/fab_state_list_anim"
             android:contentDescription="@string/action_share"
             app:pressedTranslationZ="12dp"
-            app:elevation="6dp"
             android:layout_width="54dp"
             android:layout_height="54dp"
             android:layout_margin="16dp"
