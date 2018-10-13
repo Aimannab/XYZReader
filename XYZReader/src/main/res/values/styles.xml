@@ -18,7 +18,9 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="colorPrimary">@color/primary_white</item>
+        <item name="colorPrimaryDark">@color/primary_text_grey</item>
+        <item name="colorAccent">@color/secondary_rust</item>`
     </style>
 
     <style name="Theme.Bacon.Detail">
@@ -26,10 +28,10 @@
     </style>
 
     <style name="MetaBarStyle">
-        <item name="android:textColor">#333</item>
+        <item name="android:textColor">@color/primary_text_grey</item>
     </style>
 
     <style name="BackgroundColorStyle">
-        <item name="android:background">#ffffffff</item>
+        <item name="android:background">@color/primary_white</item>
     </style>
 </resources>
