@@ -22,8 +22,9 @@
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="hotpink">#FF1493</color>
-    <color name="white">#ffffff</color>
-    <color name="black">#000000	</color>
-    <color name="rust">#CF5300</color>
-    <color name="grey">#333</color>
+    <color name="primary_white">#ffffff</color>
+    <color name="primary_white_text">#8fff</color>
+    <color name="primary_black">#000000	</color>
+    <color name="secondary_rust">#CF5300</color>
+    <color name="primary_text_grey">#333</color>
 </resources>
