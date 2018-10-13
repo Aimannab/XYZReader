@@ -120,6 +120,7 @@
             android:src="@drawable/ic_share"
             android:backgroundTint="@color/secondary_rust"
             android:elevation="@dimen/fab_elevation"
+            app:elevation="6dp"
             android:stateListAnimator="@anim/fab_state_list_anim"
             android:contentDescription="@string/action_share"
             app:pressedTranslationZ="12dp"
